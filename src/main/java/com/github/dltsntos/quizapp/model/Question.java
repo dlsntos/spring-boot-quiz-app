@@ -17,7 +17,7 @@ public class Question {
     private String option3;
     private String option4;
     private String rightAnswer;
-    private String difficultylevel;
+    private String difficultyLevel;
     private String category;
 
     public Integer getId() {
@@ -76,12 +76,12 @@ public class Question {
         this.rightAnswer = rightAnswer;
     }
 
-    public String getDifficultylevel() {
-        return difficultylevel;
+    public String getDifficultyLevel() {
+        return difficultyLevel;
     }
 
-    public void setDifficultylevel(String difficultylevel) {
-        this.difficultylevel = difficultylevel;
+    public void setDifficultyLevel(String difficultyLevel) {
+        this.difficultyLevel = difficultyLevel;
     }
 
     public String getCategory() {
